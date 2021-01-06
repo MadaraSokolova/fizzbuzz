@@ -174,7 +174,7 @@ h1 {
 
 @media (max-width: 576px) {
     #elements {
-        grid-template-columns: 1fr, auto;
+        grid-template-columns: 1fr auto;
     }
 
     .navigation {
@@ -190,7 +190,7 @@ h1 {
 } 
 @media (max-width: 992px) {
     #elements {
-        grid-template-columns: 1fr, auto;
+        grid-template-columns: 1fr auto;
     }
 
     .navigation {

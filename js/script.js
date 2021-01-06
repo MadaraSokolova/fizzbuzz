@@ -4,7 +4,7 @@ function innit(){
     clearButton.addEventListener("click", onClickClear);
     let submitButton = document.getElementById('button1');
     submitButton.addEventListener("click", onClickCreate);
-};
+}
 function onClickCreate (){
     onClickClear();
     let startInput = document.getElementById('StartingInput').value;
@@ -39,7 +39,7 @@ function onClickCreate (){
                     element.innerText=startInput;
                 }
         }
-};
+}
 
 function onClickClear () {
     while (elements.firstChild) {

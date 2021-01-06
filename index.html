@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FizzBuzz</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>FizzBuzz</h1>
+        <div class="intro">A program that prints the numbers from [Starting value] to [Ending value], but for multiples of [Fizz Value] "Fizz" instead of the number and for the multiples of [Buzz Value] "Buzz". For numbers which are multiples of both [Fizz Value] and [Buzz Value] prints "FizzBuzz".</div>
+        <div class="navigation">
+            <span>Starting value: </span><input type="number" name="field"  id="StartingInput" value="1"  min="1" max="99">
+            <span>Ending value: </span><input type="number" name="field"  id="EndingInput" value="100" min="2" max="100">
+            <span>Fizz value: </span><input type="number" name="field"  id="FizzInput" value="3" min="1" max="100">
+            <span>Buzz value: </span><input type="number" name="field"  id="BuzzInput" value="5" min="1" max="100">           
+            <button type="submit" id="button1">GENERATE</button>
+            <button type="submit" id="button2">CLEAR</button>
+        </div>
+        <div id="elements">
+        </div>
+    </main>
+    <footer>
+        <p>2021</p> 
+        <p>Gunta, Madara, Vineta</p>
+    </footer>
+</body>
+</html>

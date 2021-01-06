@@ -173,10 +173,6 @@ h1 {
 /*SIZING*/
 
 @media (max-width: 576px) {
-    #elements {
-        grid-template-columns: 1fr auto;
-    }
-
     .navigation {
         width: 100%;
         min-height: 400px;
@@ -189,10 +185,7 @@ h1 {
     }
 } 
 @media (max-width: 992px) {
-    #elements {
-        grid-template-columns: 1fr auto;
-    }
-
+    
     .navigation {
         width: 100%;
         min-height: 400px;
